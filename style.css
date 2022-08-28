@@ -133,32 +133,88 @@ h1 {
 }
 
 .picture {
-    position: relative;
     width: 50%;
-    height: 644;
-}
-
-.shelf  {
-    position: absolute;
-    z-index: -1;
-    width: 554px;
-    height: 360px;
-    left: 110px;
-    top: 116px;
-}
-
-.pose {
-    position: absolute;
-    width: 580px;
     height: 644px;
-    left: 50px;
-    top: 0;
 }
 
-.bubble {
-    position: absolute;
-    width: 229px;
-    height: 153px;
-    left: 450px;
-    top: 421px;
+.picture img {
+    height: 644px;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 30px;
+    margin: 100px auto;
+}
+
+.content2 {
+    display: flex;
+    width: 80%;
+    height: 475px;
+    margin: 165px auto;
+}
+
+.human-with-pen {
+    width: 45%;
+}
+
+.subscription-index {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 50%;
+    height: 230px;
+}
+
+.subscription-index h1 {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 57px;
+    letter-spacing: -1.56316px;
+    color: #19191B;
+}
+
+.subscription-index p {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.625263px;
+    color: #696871;
+    margin: 0 0 30px 0;
+}
+
+.subscription-index a {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.531474px;
+    color: black;
+    text-decoration: none;
+}
+.subscription-index a:hover {
+    color: #5454D4;
+    transition: .3s;
+}
+
+/* design of content3 */
+
+.content3 {
+    display: flex;
+    width: 80%;
+    margin: 80px auto;
+}
+
+.metrics {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 60px;
 }
